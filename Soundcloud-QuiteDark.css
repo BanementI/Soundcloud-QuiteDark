@@ -81,6 +81,14 @@
     }
     /* 26/03/2021 Fixes End */
     
+    /* 01/04/2021 Fixes */
+    
+    body.sc-classic {
+        background: #0E0E0E url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNgAAABkCAAAAABxmtK9AAABFElEQVR42u3UMREAAAgDMSoB/2argZVLJPzw2QH4JcYGGBuAsQEYG4CxARgbYGwAxgZgbADGBmBsgLEBGBuAsQEYG4CxAcYGYGwAxgZgbADGBmBsgLEBGBuAsQEYG4CxAcYGYGwAxgZgbADGBhgbgLEBGBuAsQEYG2BsAMYGYGwAxgZgbADGBhgbgLEBGBuAsQEYG2BsAMYGYGwAxgZgbICxARgbgLEBGBuAsQHGBmBsAMYGYGwAxgZgbICxARgbgLEBGBuAsQHGBmBsAMYGYGwAxgYYG4CxARgbgLEBGBtgbBoAxgZgbADGBmBsAMYGGBuAsQEYG4CxARgbYGwAxgZgbADGBmBsgLEBGBuAsQEYG8BdAY8JBwnfLuOyAAAAAElFTkSuQmCC) repeat-y 50% 0;
+    }
+    
+    /* 01/04/2021 Fixes End */
+    
     .g-dark-bg,
     .g-dark-list,
     .unreadConversations,
