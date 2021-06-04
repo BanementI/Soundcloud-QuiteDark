@@ -143,12 +143,12 @@
     .header__navMenu > li > a.header__moreButton.selected {
         background-color: #222
     }
-    .g-tabs-link,
-    .g-tabs-link:visited {
+    .sc-classic .g-tabs-link,
+    .sc-classic .g-tabs-link:visited {
         color: #ccc
     }
-    .g-tabs-link:hover,
-    .g-tabs-link:focus {
+    .sc-classic .g-tabs-link:hover,
+    .sc-classic .g-tabs-link:focus {
         color: #ccc;
         border-color: #ccc
     }
