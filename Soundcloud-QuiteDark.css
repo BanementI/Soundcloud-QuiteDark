@@ -114,16 +114,16 @@
     .m-light .headerMenu__list {
         border-color: #1c1c1c
     }
-    .dropdownContent__container {
+    .sc-classic .dropdownContent__container {
         background-color: #111;
         border-color: #333
     }
-    .dropdownContent__listItem,
-    .dropdownContent__header,
-    .dropdownContent__main {
+    .sc-classic .dropdownContent__listItem,
+    .sc-classic .dropdownContent__header,
+    .sc-classic .dropdownContent__main {
         border-bottom-color: #1c1c1c
     }
-    .notificationBadge__link:focus,
+    .sc-classic .notificationBadge__link:focus,
     .notificationBadge__link:focus:after {
         border-color: #333
     }
@@ -300,25 +300,36 @@
         border-color: #111;
         box-shadow: 0 1px 0 0 #1c1c1c
     }
-    .commentForm__wrapper {
+    .sc-classic .commentForm__wrapper {
         background: #0a0a0a;
         border-color: #1a1a1a
     }
-    .commentForm__input {
+    .sc-classic commentForm__input {
         background: #111;
         border-color: #1a1a1a
     }
-    .commentForm.m-active .commentForm__wrapper {
+    .sc-classic .commentForm.m-active .commentForm__wrapper {
         background: #1a1a1a;
         border-color: #333
     }
     .commentItem.m-creatorComment,
-    .commentFormDisabled {
+    .sc-classic .commentFormDisabled {
         background-color: #0a0a0a
     }
-    .commentForm.m-small.m-active .commentForm__input {
+    .sc-classic .commentForm.m-small.m-active .commentForm__input {
         border-color: #333 !important
     }
+    
+    .sc-classic .commentForm.m-large .commentForm__input {
+        background: #111;
+        border: #f00
+    }
+    
+    .sc-classic .commentForm__input {
+        background: #111;
+        border-color: #333
+    }
+    
     .compact__bubble {
         background-color: #111
     }
