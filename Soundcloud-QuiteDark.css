@@ -659,8 +659,8 @@
     .lhoFxS {
         filter: invert(1)
     }
-    .dialog,
-    .dialog__arrow {
+    .sc-classic .dialog,
+    .sc-classic .dialog__arrow {
         border-color: #333;
         background: #111
     }
