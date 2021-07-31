@@ -586,7 +586,7 @@
         border-left-color: #1c1c1c
     }
     .sc-border-light-bottom,
-    .g-tabs,
+    .sc-classic .g-tabs,
     .g-modal-title-h1,
     .g-form-section-head,
     .collection.m-overview .collection__section:not(:last-child),
