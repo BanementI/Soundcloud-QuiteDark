@@ -3,8 +3,8 @@
 @namespace      USO Archive
 @author         pawelos076232
 @description    `Quite dark style for the SoundCloud`
-@version        20210807.20.35
-@license        NO-REDISTRIBUTION (Not anymore!)
+@version        20213107.20.24
+@license        NO-REDISTRIBUTION (Whoops)
 @updateURL      https://raw.githubusercontent.com/BanementI/Soundcloud-QuiteDark/main/Soundcloud-QuiteDark.css
 @preprocessor   uso
 ==/UserStyle== */
@@ -24,10 +24,10 @@
     
     .l-footer:after {
         white-space: pre;
-        content: "\A\ASoundCloud - Quite Dark v1.3.9 \A style by pawelos076232"
+        content: "\A\ASoundCloud - Quite Dark \A style by pawelos076232 \A maintained by Banement & ZykeDev"
     }
     html[lang="pl"] .l-footer:after {
-        content: "\A\AU\017Cywasz styl SoundCloud - Quite Dark v1.3.9 \A stworzony z mi\0142\o\015B ci\0105  \2764\ przez pawelos076232" !important
+        content: "\A\AU\017Cywasz styl SoundCloud - Quite Dark  \A stworzony z mi\0142\o\015B ci\0105  \2764\ przez pawelos076232" !important
     }
     body {
         background: #0a0a0a url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABNgAAABkCAAAAABxmtK9AAABFElEQVR42u3UMREAAAgDMSoB/2argZVLJPzw2QH4JcYGGBuAsQEYG4CxARgbYGwAxgZgbADGBmBsgLEBGBuAsQEYG4CxAcYGYGwAxgZgbADGBmBsgLEBGBuAsQEYG4CxAcYGYGwAxgZgbADGBhgbgLEBGBuAsQEYG2BsAMYGYGwAxgZgbADGBhgbgLEBGBuAsQEYG2BsAMYGYGwAxgZgbICxARgbgLEBGBuAsQHGBmBsAMYGYGwAxgZgbICxARgbgLEBGBuAsQHGBmBsAMYGYGwAxgYYG4CxARgbgLEBGBtgbBoAxgZgbADGBmBsAMYGGBuAsQEYG4CxARgbYGwAxgZgbADGBmBsgLEBGBuAsQEYG8BdAY8JBwnfLuOyAAAAAElFTkSuQmCC) repeat-y 50% 0
@@ -103,11 +103,11 @@
     .profileMenu__list {
         background-color: #222
     }
-    .headerMenu.m-light {
+    .sc-classic .headerMenu.m-light {
         background-color: #111;
         border-color: #333
     }
-    .m-light .headerMenu__link:focus,
+    .sc-classic .m-light .headerMenu__link:focus,
     .m-light .headerMenu__link:hover {
         background-color: #0a0a0a
     }
@@ -119,7 +119,7 @@
     .m-light a[class*="profileMenu__"]:after {
         filter: invert(1)
     }
-    .m-light .headerMenu__list {
+    .sc-classic .m-light .headerMenu__list {
         border-color: #1c1c1c
     }
     .sc-classic .dropdownContent__container {
@@ -278,7 +278,7 @@
     .sc-snippet-badge-grey {
         border-color: #333
     }
-    .soundBadge__additional {
+    .sc-classic .soundBadge__additional {
         background: #111;
         background: linear-gradient(to right, rgba(17, 17, 17, 0.1), #111 17px)
     }
@@ -537,7 +537,7 @@
     .moreActions__link {
         border-bottom-color: #1a1a1a
     }
-    .moreActions {
+    .sc-classic  .moreActions {
         border-color: #1a1a1a;
         background: #111
     }
@@ -615,10 +615,10 @@
     }
     .modal__modal,
     .audibleEditForm__form,
-    .tabs__tabs,
-    .tabs__headingContainer,
+    .sc-classic .tabs__tabs,
+    .sc-classic .tabs__headingContainer,
     .tagInput__wrapper,
-    .g-modal-section,
+    .sc-classic .g-modal-section,
     .recipientChooser .tokenInput__wrapper,
     .localeSelectorContent {
         background: #111
@@ -630,10 +630,10 @@
     .composeMessage__bottomWrapper {
         border-color: #333
     }
-    .modal.modalWhiteout {
+    .sc-classic .modal.modalWhiteout {
         background-color: rgba(0, 0, 0, 0.9)
     }
-    .modal.modalWhiteout > .modal__closeButton {
+    .sc-classic .modal.modalWhiteout > .modal__closeButton {
         filter: invert(1)
     }
     .permalinkTextfield__input:disabled {
@@ -948,6 +948,9 @@
     ::-webkit-scrollbar-button:single-button:active {
         background: #1c1c1c20;
     }
+
+
+
 }
 
 
