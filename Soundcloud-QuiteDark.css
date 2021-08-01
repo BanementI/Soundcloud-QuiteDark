@@ -108,7 +108,7 @@
         border-color: #333
     }
     .sc-classic .m-light .headerMenu__link:focus,
-    .m-light .headerMenu__link:hover {
+    .sc-classic .m-light .headerMenu__link:hover {
         background-color: #0a0a0a
     }
     .m-light .headerMenu__link,
