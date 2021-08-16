@@ -3,17 +3,18 @@
 @namespace      USO Archive
 @author         pawelos076232
 @description    `Quite dark style for the SoundCloud`
-@version        20210108.21.00
+@version        20211608.01.12
 @license        NO-REDISTRIBUTION (Whoops)
 @updateURL      https://raw.githubusercontent.com/BanementI/Soundcloud-QuiteDark/main/Soundcloud-QuiteDark.css
+@homepageURL	https://github.com/BanementI/Soundcloud-QuiteDark
 @preprocessor   uso
 ==/UserStyle== */
 
 /*!
 || Name: SoundCloud - Quite Dark (2021 Fixes) ||
-|| Original Author: pawelos076232         ||
-|| License: No Redistribution (Not anymore!)    ||
-|| Version: 1.3.9                ||
+|| Original Author: pawelos076232             ||
+|| License: No Redistribution (Not anymore!)  ||
+|| Version: 1.3.9                             ||
 */
 
 @-moz-document regexp("http(s)?://(|www.)?soundcloud.com/((?!jobs|settings/connections).*)") {
@@ -614,6 +615,7 @@
         border-top-color: #1a1a1a
     }
     .modal__modal,
+	.sc-classic .modal__modal,
     .audibleEditForm__form,
     .sc-classic .tabs__tabs,
     .sc-classic .tabs__headingContainer,
