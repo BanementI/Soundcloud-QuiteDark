@@ -3,9 +3,9 @@
 @namespace      USO Archive
 @author         pawelos076232
 @description    `Quite dark style for the SoundCloud`
-@version        20211608.01.12
+@version        20211030.16.49
 @license        NO-REDISTRIBUTION (Whoops)
-@updateURL      https://raw.githubusercontent.com/BanementI/Soundcloud-QuiteDark/main/Soundcloud-QuiteDark.css
+@updateURL      https://raw.githubusercontent.com/BanementI/Soundcloud-QuiteDark/main/Soundcloud-QuiteDark.user.css
 @homepageURL	https://github.com/BanementI/Soundcloud-QuiteDark
 @preprocessor   uso
 ==/UserStyle== */
@@ -259,7 +259,7 @@
     .chartTrack.m-playing,
     .chartTrack:hover,
     .listenLogin {
-        background-color: #0a0a0a
+        background-color: #0a0a0a !important;
     }
     .compactTrackListItem.clickToPlay.active .compactTrackListItem__additional,
     .compactTrackListItem.clickToPlay:hover .compactTrackListItem__additional,
@@ -267,11 +267,15 @@
     .trackItem:not(.m-disabled).hover .trackItem__additional,
     .trackItem:not(.m-disabled).active .trackItem__additional {
         background: #0a0a0a;
-        background: linear-gradient(to right, rgba(13, 13, 13, 0.1), #0a0a0a 17px)
+        background: linear-gradient(to right, rgba(13, 13, 13, 0.1), #0a0a0a 17px) !important;
     }
     .createPlaylistSuggestion__addContainer {
-        background: linear-gradient(to right, rgba(17, 17, 17, 0.1), #111 20px)
+        background: linear-gradient(to right, rgba(17, 17, 17, 0.1), #111 20px) !important;
     }
+	.playlistConsumerSubUpsell__messageBox {
+		background: #111;
+		border-color: #222;
+	}
     .truncatedAudioInfo.m-overflow.m-collapsed .truncatedAudioInfo__wrapper::after {
         background: #111;
         background: linear-gradient(rgba(17, 17, 17, 0), rgba(17, 17, 17, 0.5) 90%, #111)
@@ -310,8 +314,8 @@
         box-shadow: 0 1px 0 0 #1c1c1c
     }
     .sc-classic .commentForm__wrapper {
-        background: #0a0a0a;
-        border-color: #1a1a1a
+    background: #111;
+    border-color: #1a1a1a;
     }
     .sc-classic commentForm__input {
         background: #111;
